@@ -36,6 +36,8 @@ showcase.addEventListener('load', async function() {
   //Necessary for adding objects. This is what will actually
   //put our 3D object into our space
   const modelNode = await sdk.Scene.createNode();
+  const littleGuy = await sdk.Scene.createNode();
+
 
   // Store the fbx component since we will need to adjust it in the next step.
   //Object is stored inside of the project
@@ -44,12 +46,9 @@ showcase.addEventListener('load', async function() {
   const fbxComponent = modelNode.addComponent(sdk.Scene.Component.FBX_LOADER, {
     url: './fbx/69-textures/01Alocasia_fbx.FBX',
   });
-
-
-
-
-
-
+  const fella = littleGuy.addComponent(sdk.Scene.Component.GLTF_LOADER, {
+    url: 'https://gitcdn.link/repo/mrdoob/three.js/dev/examples/models/gltf/CesiumMan/glTF/CesiumMan.gltf',
+  });
 
 
   //Color in hex, not actually applied to the plant yet, I think i need to add to the texture method?
@@ -62,16 +61,27 @@ showcase.addEventListener('load', async function() {
     z: 0.0009
   };
 
+  fella.inputs.localScale = {
+    x: .5,
+    y: .5,
+    z: .5
+  };
+
+  fella.inputs.color = '#ff0000'
+
+
+
 
 
   //Location of the plant. X is "left and right", Y is "up and down", Z is "Forward and back"
   // Relative to "spawn" location of the viewer. If you move those relations will not hold
-  modelNode.obj3D.position.set(-5,-.01,1); // drop ~3 feet
+  modelNode.obj3D.position.set(-5,-.01,1);
 
   //Rot is for the ultra-impressive cosine rotation
   //the .start() is what will actually add the object inside the node to scene
   var  rot = 0;
   modelNode.start();
+  littleGuy.start();
 
 
   //This runs constantly to allow for animation. I am still unfamiliar with this
@@ -81,6 +91,7 @@ showcase.addEventListener('load', async function() {
   const tick = function() {
     requestAnimationFrame(tick);
     modelNode.obj3D.rotation.y = Math.cos(rot)*3.14;
+    littleGuy.obj3D.position.set(-6.9 - Math.cos(rot*1.1)*3.14/8, -.01, 1.25);
     rot = rot + .02;
   }
   tick();
