@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24d3bd6c-6865-464c-8bda-aae7be07b1b3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dEDQkrWEayINaM3H3kVEBqdCTD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examples" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\njgorman\Documents\Sandbox\showcase-sdk-tutorial-master\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\njgorman\Documents\Sandbox\showcase-sdk-tutorial-master\bundle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\njgorman\Documents\Sandbox\showcase-sdk-tutorial-master\bundle\js" />
+      <recent name="C:\Users\njgorman\Documents\Sandbox\showcase-sdk-tutorial-master\bundle\fbx\69-textures" />
+      <recent name="C:\Users\njgorman\Documents\Sandbox\showcase-sdk-tutorial-master\bundle\fbx" />
+      <recent name="C:\Users\njgorman\Documents\Sandbox\showcase-sdk-tutorial-master\bundle" />
+      <recent name="C:\Users\njgorman\Documents\Sandbox\showcase-sdk-tutorial-master" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24d3bd6c-6865-464c-8bda-aae7be07b1b3" name="Default Changelist" comment="" />
+      <created>1591981344693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591981344693</updated>
+      <workItem from="1591981345949" duration="298000" />
+      <workItem from="1591981677000" duration="3020000" />
+      <workItem from="1592221369543" duration="1304000" />
+      <workItem from="1592223484624" duration="2873000" />
+      <workItem from="1592231920915" duration="27000" />
+      <workItem from="1592231970424" duration="6375000" />
+      <workItem from="1592312592346" duration="214000" />
+      <workItem from="1592312835641" duration="302000" />
+      <workItem from="1592324121945" duration="3512000" />
+      <workItem from="1592394553854" duration="10566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-986" y="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592233091062">
+      <screen x="-1440" y="-1310" width="1440" height="2520" />
+    </state>
+    <state x="-986" y="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1440.-1310.1440.2520@-1440.-1310.1440.2520" timestamp="1592233091062" />
+    <state x="-940" y="338" key="FileChooserDialogImpl" timestamp="1592313137392">
+      <screen x="-1440" y="-1310" width="1440" height="2520" />
+    </state>
+    <state x="-940" y="338" key="FileChooserDialogImpl/0.0.1280.680/-1440.-1310.1440.2520@-1440.-1310.1440.2520" timestamp="1592313137392" />
+  </component>
+</project>
